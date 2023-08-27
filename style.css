@@ -8,12 +8,12 @@ body{
 
 #d1{
     
-    background-image: url(landing.jpg);
+    background-image: url(image/landing.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
     text-align: center;
-    height: auto;
+    height: 700px;
     
 
     
@@ -63,7 +63,7 @@ body{
 
 }
 #breakfast{
-    background-image: url(breakfast.jpg);
+    background-image: url(image/breakfast.jpg);
     text-align: center;
     color: white;
     flex-direction: column;
@@ -74,7 +74,7 @@ body{
 
 }
 #lunch{
-    background-image: url(lunch.jpg);
+    background-image: url(image/lunch.jpg);
     text-align: center;
     color: white;
     flex-direction: column;
@@ -84,7 +84,7 @@ body{
 
 }
 #dinner{
-    background-image: url(dinner.jpg);
+    background-image: url(image/dinner.jpg);
     text-align: center;
     color: white;
     flex-direction: column;
@@ -182,7 +182,7 @@ h2{
     background-color: white;
 }
 .paralax{
-    background-image: url(foodsBg.jpg);
+    background-image: url(image/foodsBg.jpg);
 
 }
 .tabimage img{
@@ -229,7 +229,7 @@ h2{
  }
  .tomatoe {
     /* The image used */
-    background-image: url("subscribe.jpg");
+    background-image: url("image/subscribe.jpg");
   
     min-height: 200px;
   
