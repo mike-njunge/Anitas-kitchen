@@ -57,13 +57,20 @@ body{
 
 }
 #first{
-  /*  padding: 15px; */
+  /*  padding: 0px; */
+  height: 100px;
+  font-size: 180%;
+  text-align: center;
 
 }
 #second{
     padding: 15px;
     background-color: tomato;
     color: white;
+    height: 100px;
+    font-size: 180%;
+    justify-content: center;
+    text-align: center;
 
 }
 #breakfast{
@@ -73,6 +80,7 @@ body{
     flex-direction: column;
     display: flex;
     justify-content: center;
+    font-size: 180%;
     
     
 
@@ -85,6 +93,7 @@ body{
     display: flex;
     justify-content: center;
     opacity: 0.5;
+    font-size: 180%;
 
 }
 #dinner{
@@ -94,16 +103,32 @@ body{
     flex-direction: column;
     display: flex;
     justify-content: center;
-    
-
+    font-size: 180%;
 }
+
 .p{
     text-align: center;
 }
 .img1{
-    width: 100%;
+    width: 50%;
     padding: 0;
-    margin: 0;
+    margin-left: 35%;
+   border-top: 10px solid;
+   border-left: 10px solid;
+   border-right: 10px solid;
+   border-color: aliceblue;
+    
+}
+.img1-{
+    width: 50%;
+    padding: 0;
+    margin-left: 35%;
+   border-bottom: 10px solid;
+   border-left: 10px solid;
+   border-right: 10px solid;
+   border-color: aliceblue;
+   
+    
 }
 
 .row{
@@ -111,13 +136,35 @@ body{
     gap: 0px;
     grid-template-columns: repeat( 2,1fr );
     margin-bottom: 32px;
-.container 
+    padding-top: 2%;
 }
-.row #image-container{
+.img-1{
+    height: 70%;
+   border-bottom: 10px solid;
+   border-left: 10px solid;
+   border-top: 10px solid;
+   border-color: rgb(228, 234, 238);
+
+}
+.img--1{
+    height: 70%;
+   border-bottom: 10px solid;
+   border-right: 10px solid;
+   border-top: 10px solid;
+   border-color: rgb(245, 249, 253);
+
+}
+.row #image-container1{
     align-self: flex-end;
+    border: #f1f1f1;
+    border-style: solid;
+    width: 400px;
+    height: 100px;
+   
+
 }
  .container{
-    padding:20px 120px ;
+    padding-top: 5% ;
  }
 .image-container{
     display: flex;
@@ -126,6 +173,7 @@ body{
     flex-direction: column;
 }
 
+
 #image-container{
     display: flex;
     grid-template-rows: repeat( 2, 1fr);  
@@ -133,16 +181,42 @@ body{
     flex-direction: row;
     float: right;
     
-}
-.item-descr{
-    padding: 10px;
-
-}
-h2{
+    
     
 }
+.item-descr{
+    padding: 15px;
+    padding-left: -70px;
+
+}
+.item-descr1{
+    padding: 15px;
+    padding-left: -70px;
+}
+.item-descr2{
+    padding: 15px;
+    padding-right: 57%;
+    text-align: right;
+}
+#image-container1{
+    padding-left: 50%;
+    margin-top: -20%;
+    position: absolute;
+    display: flex;
+    grid-template-rows: repeat( 2, 1fr);  
+    align-items: flex-start;
+    flex-direction: row;
+    float: right;
+    height: 50%;
+    
+}
+h2{
+    font-size: 200%;
+    
+}
+
 #image-container img{
-    width: 50%;
+    width: 100%;
 }
 .btn{
     border: 2px solid orange;
@@ -157,6 +231,10 @@ h2{
 .para{
     margin-bottom: 10px;
     
+}
+.para1{
+    
+    margin-left: 35%;
 }
 .tabheader{
     background-color: lightgray;
