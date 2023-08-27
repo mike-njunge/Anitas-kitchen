@@ -29,9 +29,10 @@ body{
 }       
 #menu{
     position: absolute;
-    left: 10px;
-    top: 10px;
+    left: 50px;
+    top: 50px;
     color: white;
+    
 
 }
 #d1 p{
@@ -41,6 +42,8 @@ body{
 }
 #text{
     color: white;
+    font-size: 200%;
+    font-weight: normal ;
     
 }
 .fontw{
@@ -50,6 +53,7 @@ body{
     display: grid;
     grid-template-columns: repeat(4,1fr);
     padding: 0%;
+    height: 200px;
 
 }
 #first{
