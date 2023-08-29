@@ -6,7 +6,8 @@ A simple webpage that contains a collection of photos/pictures in which some are
 
 The basic layout of the website is simplified to a column view to provide ease in viewing the photographs as well as in reading texts that accompany some images.
 
-A live link to the website/webpage is as: https://lekeni.github.io/anitas_kitchen/
+A live link to the website/webpage is as: 
+https://mike-njunge.github.io/Anitas-kitchen/
 
 # Tools
 
@@ -29,6 +30,10 @@ On visiting the website, the landing page will appear as in the image provided b
 
 <img src="image/Screenshot (7).png">
 <img src="image/Screenshot (8).png">
+<img src="image/Screenshot (9).png">
+<img src="image/Screenshot (10).png">
+<img src="image/Screenshot (11).png">
+
 
 # Author
 
