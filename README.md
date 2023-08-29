@@ -27,7 +27,8 @@ Additionally, to successfully view the website, you must open the link on a Macb
 
 On visiting the website, the landing page will appear as in the image provided below:
 
-<img src="image/Screenshot (6)">
+<img src="image/Screenshot (7).png">
+<img src="image/Screenshot (8).png">
 
 # Author
 
